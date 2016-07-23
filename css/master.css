@@ -135,7 +135,7 @@ a {
 #background {
     background: url("../img/sky.png");
     background-size: cover;
-    height: 700px;
+    height: 1000px;
     margin-top: 0px;
 }
 
@@ -143,4 +143,8 @@ a {
     margin-bottom: 0px;
     background: none;
     border: none;
+}
+
+.center-block {
+  float: none;
 }
