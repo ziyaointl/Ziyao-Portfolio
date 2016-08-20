@@ -165,3 +165,8 @@ body {
     /* Add additional styles here for the COLLAPSED state */
   }
 }
+
+#test {
+  position:relative;
+  z-index: 1000;
+}
