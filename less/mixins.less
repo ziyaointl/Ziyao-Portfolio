@@ -1,0 +1,10 @@
+.gray(@percent) {
+  color: lighten(@black, percentage(@percent / 100));
+}
+
+.transition (@transition) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	-ms-transition:     @transition; 
+	-o-transition:      @transition;  
+}

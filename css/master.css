@@ -1,72 +1,72 @@
-.navbar-default {
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #ffffff;
-}
-.navbar-default .navbar-brand {
-  color: #ffffff;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #C5DBF2;
-}
-.navbar-default .navbar-text {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #C5DBF2;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #C5DBF2;
-  background-color: rgba(0, 0, 0, 0);
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #C5DBF2;
-  background-color: rgba(0, 0, 0, 0);
-}
-.navbar-default .navbar-toggle {
-  border-color: rgba(0, 0, 0, 0);
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: rgba(0, 0, 0, 0);
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-link {
-  color: #ffffff;
-}
-.navbar-default .navbar-link:hover {
-  color: #C5DBF2;
-}
+// .navbar-default {
+//   background-color: rgba(0, 0, 0, 0);
+//   border-color: #ffffff;
+// }
+// .navbar-default .navbar-brand {
+//   color: #ffffff;
+// }
+// .navbar-default .navbar-brand:hover,
+// .navbar-default .navbar-brand:focus {
+//   color: #C5DBF2;
+// }
+// .navbar-default .navbar-text {
+//   color: #ffffff;
+// }
+// .navbar-default .navbar-nav > li > a {
+//   color: #ffffff;
+// }
+// .navbar-default .navbar-nav > li > a:hover,
+// .navbar-default .navbar-nav > li > a:focus {
+//   color: #C5DBF2;
+// }
+// .navbar-default .navbar-nav > .active > a,
+// .navbar-default .navbar-nav > .active > a:hover,
+// .navbar-default .navbar-nav > .active > a:focus {
+//   color: #C5DBF2;
+//   background-color: rgba(0, 0, 0, 0);
+// }
+// .navbar-default .navbar-nav > .open > a,
+// .navbar-default .navbar-nav > .open > a:hover,
+// .navbar-default .navbar-nav > .open > a:focus {
+//   color: #C5DBF2;
+//   background-color: rgba(0, 0, 0, 0);
+// }
+// .navbar-default .navbar-toggle {
+//   border-color: rgba(0, 0, 0, 0);
+// }
+// .navbar-default .navbar-toggle:hover,
+// .navbar-default .navbar-toggle:focus {
+//   background-color: rgba(0, 0, 0, 0);
+// }
+// .navbar-default .navbar-toggle .icon-bar {
+//   background-color: #ffffff;
+// }
+// .navbar-default .navbar-collapse,
+// .navbar-default .navbar-form {
+//   border-color: #ffffff;
+// }
+// .navbar-default .navbar-link {
+//   color: #ffffff;
+// }
+// .navbar-default .navbar-link:hover {
+//   color: #C5DBF2;
+// }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #C5DBF2;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #C5DBF2;
-    background-color: rgba(0, 0, 0, 0);
-  }
-}
+// @media (max-width: 767px) {
+//   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+//     color: #ffffff;
+//   }
+//   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+//   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+//     color: #C5DBF2;
+//   }
+//   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+//   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+//   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+//     color: #C5DBF2;
+//     background-color: rgba(0, 0, 0, 0);
+//   }
+// }
 
 // above are the code to change color for bootstrap navbar
 
@@ -95,11 +95,11 @@ h1 {
     margin-top: 0px;
 }
 
-#custom-nav {
-    margin-bottom: 0px;
-    background: none;
-    border: none;
-}
+// #custom-nav {
+//     margin-bottom: 0px;
+//     background: none;
+//     border: none;
+// }
 
 .center-block {
     float: none;
@@ -152,19 +152,19 @@ body {
     position: relative;
 }
 
-@media(min-width:768px) {
-  .navbar-default {
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-    padding: 15px 0;
-    /* Add additional styles here for the UNCOLLAPSED state */
-  }
-  .navbar-default.affix {
-    padding: 0;
-    /* Add additional styles here for the COLLAPSED state */
-  }
-}
+// @media(min-width:768px) {
+//   .navbar-default {
+//     -webkit-transition: all .35s;
+//     -moz-transition: all .35s;
+//     transition: all .35s;
+//     padding: 15px 0;
+     // Add additional styles here for the UNCOLLAPSED state 
+//   }
+//   .navbar-default.affix {
+//     padding: 0;
+//     /* Add additional styles here for the COLLAPSED state */
+//   }
+// }
 
 #test {
   position:relative;
