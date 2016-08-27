@@ -4500,8 +4500,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #b3b3b3;
-  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  background-color: #757575;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4526,8 +4526,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: rgba(0, 0, 0, 0);
-  color: #b3b3b3;
+  background-color: #757575;
+  color: white;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -4541,8 +4541,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #b3b3b3;
-    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    background-color: #757575;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -6740,19 +6740,21 @@ button.close {
 .fixed {
   background-color: #424242;
 }
-nav a:after {
-  content: "";
-  display: block;
-  margin: auto;
-  height: 2px;
-  width: 0px;
-  background: transparent;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-nav a:hover:after {
-  width: 100%;
-  background: white;
+@media (min-width: 768px) {
+  nav a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  nav a:hover:after {
+    width: 100%;
+    background: white;
+  }
 }
