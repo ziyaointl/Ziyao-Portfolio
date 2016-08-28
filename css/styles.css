@@ -6862,9 +6862,16 @@ nav a {
 .background {
   background: url("../img/sky.png");
   background-size: cover;
-  height: 600px;
-  margin-top: 0px;
 }
 .subtitle {
   font-weight: 200;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+#home {
+  height: 600px;
+  margin-top: 0px;
+}
+#about {
+  padding-bottom: 3em;
 }
