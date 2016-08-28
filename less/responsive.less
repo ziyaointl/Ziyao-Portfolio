@@ -1,0 +1,63 @@
+@base: 16px;
+@xs-multiplier: 1.1;
+@sm-multiplier: 1.1 * @xs-multiplier;
+@md-multiplier: 1.1 * @sm-multiplier;
+@lg-multiplier: @md-multiplier;
+@xs-size: @base * @xs-multiplier;
+@sm-size: @base * @sm-multiplier;
+@md-size: @base * @md-multiplier;
+@lg-size: @base * @lg-multiplier;
+
+@media (max-width: @screen-xs) {
+    body {
+        font-size: @base;
+    }
+}
+
+@media (min-width: @screen-xs) {
+    body {
+        font-size: @xs-size;
+    }
+}
+
+@media (min-width: @screen-sm) {
+    body {
+        font-size: @sm-size;
+    }
+}
+
+@media (min-width: @screen-md) {
+    body {
+        font-size: @md-size;
+    }
+}
+
+@media (min-width: @screen-lg) {
+    body {
+        font-size: @lg-size;
+    }
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1.12em;
+}
+
+h5 {
+    font-size: .83em;
+}
+
+h6 {
+    font-size: .67em;
+}
