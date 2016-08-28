@@ -2,52 +2,6 @@
   font-family: "Courier New", Courier, monospace;
 }*/
 
-h1 {
-    font-size: 50px;
-    font-weight: 200;
-}
-
-.white-font {
-    color: white;
-}
-
-.background {
-    background: url("../img/sky.png");
-    background-size: cover;
-    height: 600px;
-    margin-top: 0px;
-}
-
-.add-padding {
-    padding-left: 8em;
-}
-
-.vertical-line {
-    border-left: thin solid #000000;
-}
-
-.horizontal-line {
-    border-bottom: thin solid #000000;
-}
-
-p {
-    line-height: 150%;
-    font-size: 20px;
-    font-weight: 200;
-}
-
 .large-padding {
     padding: 2%;
-}
-
-.blue-background {
-    background-color: #a3c8eb;
-}
-
-.light-font {
-    font-weight: lighter;
-}
-
-.white-border {
-    border-color: white;
 }
