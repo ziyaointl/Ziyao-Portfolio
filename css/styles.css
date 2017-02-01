@@ -6933,7 +6933,9 @@ nav a {
   border-color: white;
   margin: 20px 10px;
 }
-.home-buttons > a:hover {
+.home-buttons > a:hover,
+.home-buttons > a:focus,
+.home-buttons > a:active {
   background-color: white;
   color: #688db8;
   border-color: white;
