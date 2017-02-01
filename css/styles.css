@@ -6922,7 +6922,7 @@ nav a {
 .home-buttons {
   text-align: center;
 }
-.home-buttons > button {
+.home-buttons > a {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -6933,7 +6933,7 @@ nav a {
   border-color: white;
   margin: 20px 10px;
 }
-.home-buttons > button:hover {
+.home-buttons > a:hover {
   background-color: white;
   color: #688db8;
   border-color: white;
