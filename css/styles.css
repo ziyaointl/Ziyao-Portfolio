@@ -6900,9 +6900,9 @@ nav a {
 }
 .board {
   background-color: white;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: .5em;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
   margin-top: 1em;
   margin-bottom: 2em;
 }
