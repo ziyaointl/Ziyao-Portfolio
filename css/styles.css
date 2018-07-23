@@ -12,6 +12,11 @@ html {
 body {
   margin: 0;
 }
+html, body {
+  margin: 0;
+  height: 100%;
+  position: relative;
+}
 article,
 aside,
 details,
@@ -6877,7 +6882,6 @@ nav a {
 }
 .portrait {
   width: 200px;
-  margin-top: 150px;
   margin-bottom: 50px;
 }
 .white-font {
@@ -6907,8 +6911,10 @@ nav a {
   margin-bottom: 2em;
 }
 #home {
-  height: 650px;
-  margin-top: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #about {
   padding-bottom: 3em;
